@@ -25,11 +25,6 @@ function Idlecraft() {
 	this.balance 			= 0.00;
 	this.durationbarlength  = 200;
 
-//++++++++++++++++++++++++Check for save jon and fill save area
-if(localStorage.Idlecraft_save!=null) {
-	//document.getElementById("txt_savegame").innerHTML=localStorage.Idlecraft_save;
-}
-//------------------------------------
 	
 	//---------
 	this.bindclickevent = function() {
@@ -319,16 +314,3 @@ function main() {
 	ic = new Idlecraft();
 	ic.init();
 }
-
-//++++++++++++++++++++++++Check for save jon and fill save area 20160529
-function savegame_export() {
-	document.getElementById("txt_savegame").innerHTML=localStorage.Idlecraft_save;
-}
-
-function loadgame_import() {
-	localStorage.Idlecraft_save=document.getElementById("txt_savegame").value;
-	//localStorage.Idlecraft_save="aaaa111";
-	//localStorage.Idlecraft_save=document.getElementById("txt_test").value;
-	//document.getElementById("txt_test").innerHTML=localStorage.Idlecraft_save;
-}
-

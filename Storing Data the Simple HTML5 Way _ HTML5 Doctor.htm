@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/search.json"></script>
+    <meta charset="utf-8">
+    <title>
+		  Storing Data the Simple HTML5 Way (and a few tricks you might not have known) | HTML5 Doctor    </title>
+    <link rel="stylesheet" href="http://html5doctor.com/wp-content/themes/html5doctor2/style.css" media="screen">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link rel="alternate" type="application/rss+xml" title="HTML5 Doctor » Feed" href="http://html5doctor.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="HTML5 Doctor » Comments Feed" href="http://html5doctor.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="HTML5 Doctor » Storing Data the Simple HTML5 Way (and a few tricks you might not have known) Comments Feed" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/feed/">
+		<script type="text/javascript" async="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/ga.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/html5doctor.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.2"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/wp-emoji-release.min.js" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="crp_list_style-css" href="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/default-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-pagenavi-css" href="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/pagenavi-css.css" type="text/css" media="all">
+<script type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/jquery.js"></script>
+<script type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/jquery-migrate.min.js"></script>
+<link rel="https://api.w.org/" href="http://html5doctor.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://html5doctor.com/xmlrpc.php?rsd">
+<link rel="prev" title="The details and summary elements" href="http://html5doctor.com/the-details-and-summary-elements/">
+<link rel="next" title="Your Questions 18" href="http://html5doctor.com/your-questions-18/">
+<link rel="canonical" href="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/Storing Data the Simple HTML5 Way _ HTML5 Doctor.htm">
+<link rel="shortlink" href="http://html5doctor.com/?p=3600">
+<link rel="alternate" type="application/json+oembed" href="http://html5doctor.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhtml5doctor.com%2Fstoring-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://html5doctor.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhtml5doctor.com%2Fstoring-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known%2F&format=xml">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+	  
+  
+	<script type="text/javascript" async="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/bsa.js"></script><script type="text/javascript" charset="utf-8" async="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/button.f680cf5c26b82452053ff9b460077fa3.js"></script><script type="text/javascript" id="_bsap_js_ab161e2bf71edb940eeca26a4739f522" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/s_ab161e2bf71edb940eeca26a4739f522.js" async="async"></script><script type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/pro.js" id="_bsap_premium_pro"></script><script type="text/javascript" id="_bsaPRO_js" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/saved_resource" async="async"></script><script id="_fbn_projs" type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/C6ADVKE.json"></script></head>
+<body class="single single-post postid-3600 single-format-standard" id="com-html5doctor">
+<header role="banner">
+    <div class="inner group">
+    <a href="http://html5doctor.com/" rel="home"><div>
+        <div class="logo">
+        <h1>HTML5 Doctor</h1>
+        <h2>Helping you implement HTML5 today</h2>
+        </div><!-- end logo -->
+    </div></a><!-- wrapper div for Firefox 3.x ref: http://01i.jp/html5bll -->
+
+ 	<ul id="menu-top-nav" class="semantic-list"><li id="menu-item-3272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3272"><a href="http://html5doctor.com/about/">About</a></li>
+<li id="menu-item-3275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3275"><a href="http://feeds2.feedburner.com/html5doctor">RSS</a></li>
+<li id="menu-item-3276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3276"><a href="http://feeds.feedburner.com/HTML5DoctorComments">Comments RSS</a></li>
+<li id="menu-item-3253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3253"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#">Doctor Network</a>
+<ul class="sub-menu">
+	<li id="menu-item-3273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3273"><a href="http://html5gallery.com/">HTML5 Gallery</a></li>
+	<li id="menu-item-3580" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3580"><a href="http://docteurhtml5.com/html5/">Docteur HTML5</a></li>
+	<li id="menu-item-3973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3973"><a href="https://github.com/html5doctor/">HTML5 Doctor on Github</a></li>
+</ul>
+</li>
+</ul>      <!-- end #top-nav -->
+    
+    <nav>
+		<ul id="menu-main_nav" class=""><li id="menu-item-3297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3297"><a href="http://html5doctor.com/">Home</a></li>
+<li id="menu-item-3250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3250"><a href="http://html5doctor.com/article-archive/">Article Archive</a></li>
+<li id="menu-item-3291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3291"><a href="http://html5doctor.com/element-index/">Element Index</a></li>
+<li id="menu-item-3968" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3968"><a href="http://html5doctor.com/resources/">Resources</a></li>
+</ul>    	<!-- end ul -->
+    	<ul>
+    		<li><form id="search-form" action="http://html5doctor.com/search/" role="search" method="get">
+    <div>
+    <input type="text" name="q" value="">
+    <input type="submit" id="search-button" value="Search">
+    </div>
+</form>
+</li>
+    	</ul>
+    	<!-- end ul -->	
+    </nav>
+    <!-- end nav -->
+	</div>
+	<!-- end .inner -->
+</header>
+<!-- end header -->
+<main id="content" class="group" role="main">
+    <div class="main">
+        <article class="post group">
+            <header class="post-3600 post type-post status-publish format-standard hentry category-javascript-apis tag-api tag-html-5 tag-html5 tag-javascript tag-storage" id="post-3600">
+                 <h1>Storing Data the Simple HTML5 Way (and a few tricks you might not have known) </h1>
+                <small><time datetime="2011-08-23" pubdate="">Tuesday, August 23rd, 2011</time> by <a href="http://html5doctor.com/author/remys/" title="Posts by Remy Sharp" rel="author">Remy Sharp</a>.</small>
+                <p class="tweet"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/tweet_button.40d5e616f4e685dadc7fb77970f64490.en.html" style="position: static; visibility: visible; width: 62px; height: 20px;"></iframe><script type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/widgets.js"></script></p>
+            </header>
+            <!-- end header -->
+             <ul class="commentlist">
+                        </ul>
+           
+            <div class="entry">
+
+		
+                <p>Yes indeed people, it’s your favourite HTML5 Doctor with JavaScript knowledge who lives in Brighton near a golf course! I’m also shooting for the longest title we’ve published so far – and I think I’m in the lead.</p>
+
+<p>This post is about the Web Storage API. Technically it’s been shifted out of the HTML5 specification and can now be found in it’s very own dedicated spec. But if it counts at all – it <em>used</em> to be part of the Web Applications spec.</p>
+
+<p>Web Storage is a very, <strong>very</strong> simple way to store data in the client – i.e. the browser. What’s more, the support is fabulous: IE8 and upwards has support natively, and there’s lots of good <a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">polyfills</a> in the <a href="http://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills">wild already</a>.</p>
+
+<p>This post however will just focus on the features of Web Storage and hopefully show you a trick or two you may not have known about.</p>
+
+<h2>What Web Storage Does</h2>
+
+<p>Using JavaScript, Web Storage makes it possible to easily store arbitrary values in the browser. Storage is different from cookies in that it’s <em>not shared</em> with the server. It’s also different from cookies in that it’s dead simple to work with.</p>
+
+<p>There are two versions of Web Storage: local and session. Local means that it’s persistent, and session is simply that the data is lost when the session ends (i.e. when you close you browser window or tab). It’s also worth noting that a session is tied to a single browser window or tab. The session <em>doesn’t</em> leak out in to other open windows on that same domain.</p>
+
+<p>Any data stored is tied to the document origin, in that it’s tied to the specific protocol (http or https, etc), the host (html5doctor.com) and the port (usually port 80).</p>
+
+<h2>Get Storing</h2>
+
+<p>The API for <code><span class="pln">localStorage</span></code> and <code><span class="pln">sessionStorage</span></code> is exactly the same, and distills down to the following methods:</p>
+
+<ul>
+<li>.setItem(key, value);</li>
+<li>.getItem(key)</li>
+<li>.removeItem(key)</li>
+<li>.clear()</li>
+<li>.key(index)</li>
+<li>.length</li>
+</ul>
+
+<p>You can probably guess what most of those methods do, maybe not the last two, but ignore all that syntax for a moment.</p>
+
+<p>Due to the way that the storage API has been defined, the set/get/remove methods all are getters, setters and deleters. What that means to you is you can use localStorage <a href="http://jsconsole.com/?localStorage.name%20%3D%20%27Remy%27%3B">as follows</a>:</p>
+
+<pre><code><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">name </span><span class="pun">=</span><span class="pln"> </span><span class="str">'Remy'</span><span class="pun">;</span><span class="pln"><br></span></code></pre>
+
+<p>If you tried using the link above, this will save a property called “name” against localStorage. Completely closing your browser, and going back to <a href="http://jsconsole.com/">http://jsconsole.com</a> and <a href="http://jsconsole.com/?console.log(localStorage.name)%3B">test the name property again</a>:</p>
+
+<pre><code><span class="pln">console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">name</span><span class="pun">);</span><span class="pln"><br></span></code></pre>
+
+<p>Still holds the value doesn’t it? Pretty easy eh? And no faffing around with cookies, for that, we can be thankful!</p>
+
+<p>Equally deleting data is <a href="http://jsconsole.com/?delete%20localStorage.name%3B%20localStorage.name">very easy</a>:</p>
+
+<pre><code><span class="kwd">delete</span><span class="pln"> localStorage</span><span class="pun">.</span><span class="pln">name</span><span class="pun">;</span><span class="pln"><br>console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">name</span><span class="pun">);</span><span class="pln"><br></span></code></pre>
+
+<p>You’ll see the value is undefined. </p>
+
+<p>What’s happening under the hood is that when you set a property on <code><span class="pln">localStorage</span></code> (or <code><span class="pln">sessionStorage</span></code>) it’s calling the .setItem method. When you get a property, it’s calling .getItem and when you delete, it’s calling removeItem. That way you can treat the Web Storage interface as any other regular object in JavaScript, except you’ll know it’ll hang around after the page has unloaded.</p>
+
+<h2>Hey everyone! I’m storing some data!</h2>
+
+<p>That’s what your browser does when you store some data. It announces it via events. </p>
+
+<p>When you set some data on localStorage or sessionStorage, an event, called “storage”, fires on all the other windows on the same origin.</p>
+
+<p>To listen for events the following code is used:</p>
+
+<pre><code><span class="kwd">function</span><span class="pln"> storageEvent</span><span class="pun">(</span><span class="kwd">event</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"><br>&nbsp; </span><span class="kwd">event</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">event</span><span class="pln"> </span><span class="pun">||</span><span class="pln"> window</span><span class="pun">.</span><span class="kwd">event</span><span class="pun">;</span><span class="pln"> </span><span class="com">// give IE8 some love</span><span class="pln"><br>&nbsp; alert</span><span class="pun">(</span><span class="str">'Yo people! Something just got stored!'</span><span class="pun">);</span><span class="pln"><br></span><span class="pun">}</span><span class="pln"><br><br></span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">window</span><span class="pun">.</span><span class="pln">attachEvent</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="com">// ::sigh:: IE8 support</span><span class="pln"><br>&nbsp; &nbsp;window</span><span class="pun">.</span><span class="pln">attachEvent</span><span class="pun">(</span><span class="str">'onstorage'</span><span class="pun">,</span><span class="pln"> storageEvent</span><span class="pun">);</span><span class="pln"><br></span><span class="pun">}</span><span class="pln"> </span><span class="kwd">else</span><span class="pln"> </span><span class="pun">{</span><span class="pln"><br>&nbsp; &nbsp; window</span><span class="pun">.</span><span class="pln">addEventListener</span><span class="pun">(</span><span class="str">'storage'</span><span class="pun">,</span><span class="pln"> storageEvent</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">);</span><span class="pln"><br></span><span class="pun">}</span><span class="pln"><br></span></code></pre>
+
+<p><small>Note that as IE8 has support, if you don’t want to use <code><span class="pln">onstorage</span></code> you’ll want to double up your event listeners with <code><span class="pln">attachEvent</span></code>.</small></p>
+
+<p>Clearly a massive alert box isn’t useful, but what is useful is what you capture inside of the event object:</p>
+
+<ul>
+<li>key – the property name of the value stored</li>
+<li>newValue – the newly set value (duh!)</li>
+<li>oldValue – the previous value before being overwritten by .newValue</li>
+<li>url – the full url path of the origin of the storage event</li>
+<li>storageArea – the storage object, either localStorage or sessionStorage</li>
+</ul>
+
+<p>With this information, you can do a lot with the storage event, like perhaps keep tabs that are open synchronised. Here’s a simple, contrived example of using localStorage to echo a value across different windows on <a href="http://html5demos.com/storage-events">html5demos.com</a>. </p>
+
+<p>Or for a real world example, <a href="http://blog.fontdeck.com/post/8470748087/localstorage">Font Deck recently implemented this very feature</a>, if you change the sample text in one window, all other open tabs (or windows) mirror that <a href="http://fontdeck.com/typefaces/serif/garalde">same sample text</a>.</p>
+
+<h2>Gotchas to watch out for</h2>
+
+<p>The main gotcha with Web Storage is that although the specification <em>used to say</em><sup>†</sup> that any object type can be stored, in fact all browsers currently coerce to strings. That means if you want to store a JavaScript object (or an array perhaps), you’ll need to use <a href="http://www.json.org/">JSON</a> to <a href="http://jsbin.com/elicop/edit#preview">encode and decode</a>:</p>
+
+<pre><code><span class="kwd">var</span><span class="pln"> doctors </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="pln"><br>&nbsp; </span><span class="str">'rem'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'rich_clark'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'brucel'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'jackosborne'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'leads'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'akamike'</span><span class="pun">,</span><span class="pln"> <br>&nbsp; </span><span class="str">'boblet'</span><span class="pun">];</span><span class="pln"><br>localStorage</span><span class="pun">.</span><span class="pln">doctors </span><span class="pun">=</span><span class="pln"> JSON</span><span class="pun">.</span><span class="pln">stringify</span><span class="pun">(</span><span class="pln">doctors</span><span class="pun">);</span><span class="pln"><br><br></span><span class="com">// later that evening…</span><span class="pln"><br></span><span class="kwd">var</span><span class="pln"> html5docs </span><span class="pun">=</span><span class="pln"> JSON</span><span class="pun">.</span><span class="pln">parse</span><span class="pun">(</span><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">doctors</span><span class="pun">);</span><span class="pln"><br>alert</span><span class="pun">(</span><span class="str">'There be '</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> html5docs</span><span class="pun">.</span><span class="pln">length </span><span class="pun">+</span><span class="pln"> </span><span class="str">' doctors in the house'</span><span class="pun">);</span><span class="pln"><br></span></code></pre>
+
+<p><small>† Edited thanks to <a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17291">feedback</a> from zcorpan</small></p>
+
+<p>When working with storage events, a couple of things to also watch out for – this is on purpose of course, but still just about qualify for gotcha status:</p>
+
+<ol>
+<li>The event only fires on the <em>other</em> windows – it won’t fire on the window that did the storing.</li>
+<li>The event won’t fire if the data doesn’t change, i.e. if you store .name = ‘Remy’ and set it to ‘Remy’ again it won’t fire the storage event (obviously, since nothing was stored).</li>
+</ol>
+
+<h2>and finally…</h2>
+
+<p>If you want to use web storage in browsers like IE6 and IE7 (or rather than <em>want</em>: <em>need</em> to in your particular case) – then there’s no shortage of polyfills for Web Storage. However be wary that you’ll need to stick to the regular <code><span class="pln">setItem</span></code> syntax rather than being able to use the sexy setter/getter syntax – and I’ve yet to see a polyfill that supports the storage events.</p>
+
+<p>Maybe that isn’t a problem for you though – maybe the sheer simplicity and spiffingness of Web Storage is enough to just support IE8 and above with this enhanced client storage model.</p>
+                        
+            </div>
+            <!-- end .entry -->
+            
+            <aside>
+                <ul class="semantic-list">
+                    <li class="category">
+                        <h3>Category</h3>
+                        <ul class="semantic-list"><li><a href="http://html5doctor.com/category/javascript-apis/" rel="category tag">JavaScript APIs</a></li></ul>
+
+                    </li>
+                    <li class="tags">
+                        <ul class="semantic-list"><li><h3>Tags</h3></li><li><a href="http://html5doctor.com/tag/api/" rel="tag">api</a></li><li><a href="http://html5doctor.com/tag/html-5/" rel="tag">HTML 5</a></li><li><a href="http://html5doctor.com/tag/html5/" rel="tag">html5</a></li><li><a href="http://html5doctor.com/tag/javascript/" rel="tag">javascript</a></li><li><a href="http://html5doctor.com/tag/storage/" rel="tag">storage</a></li></ul>                    </li>
+                </ul>
+
+		 
+            </aside>
+            <!-- end aside -->
+            
+            <aside id="author-bio">
+                <h4><a href="http://html5doctor.com/author/remys/" title="Posts by Remy Sharp" rel="author">Remy Sharp</a></h4>
+                <div class="author-blurb author">
+                    <p class="vcard">This article was written by <span class="fn"><a href="http://html5doctor.com/author/remys/" title="Posts by Remy Sharp" rel="author">Remy Sharp</a></span>. Remy (<a href="http://twitter.com/rem">@rem</a> on Twitter) is the founder of <a href="http://jqueryfordesigners.com/">jQuery for Designers</a> and the <a href="http://full-frontal.org/">Full Frontal JavaScript conference</a>, otherwise he's a developer and blogger.
+
+Generally speaking, he's about as crazy about JavaScript, HTML &amp; CSS as a squirrel is about his nuts during the winter.</p>
+                    <img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/c67399ae31afdbeb26e2ba24e4a31a8c" srcset="http://0.gravatar.com/avatar/c67399ae31afdbeb26e2ba24e4a31a8c?s=256&amp;d=mm&amp;r=g 2x" class="avatar avatar-128 photo" height="128" width="128">                </div>
+            </aside>
+            <!-- end #author-bio -->
+            
+            <section id="comments">
+                
+<!-- You can start editing here. -->
+
+	<h3>32 Responses on the article “Storing Data the Simple HTML5 Way (and a few tricks you might not have known)”</h3>
+
+		<li class="comment even thread-even depth-1" id="comment-17291">
+				<div id="div-comment-17291" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/9767673d472c2f27307890c27061bca3" srcset="http://0.gravatar.com/avatar/9767673d472c2f27307890c27061bca3?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">zcorpan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17291">
+			August 23, 2011 at 3:22 pm</a>		</div>
+
+		<p>&gt; The main gotcha with Web Storage is that although the specification says that any object type can be stored,</p>
+<p>The spec changed.</p>
+<p>Also, maybe you should mention that Web storage suffers from being racy if the browser uses different processes for different tabs. Which is the reason some browser developers don’t want anyone to ever use Web Storage. (Cookies suffer from this problem as well, though.)</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17291#respond" onclick="return addComment.moveForm( &quot;div-comment-17291&quot;, &quot;17291&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to zcorpan">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-remys bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-17292">
+				<div id="div-comment-17292" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/c67399ae31afdbeb26e2ba24e4a31a8c(1)" srcset="http://0.gravatar.com/avatar/c67399ae31afdbeb26e2ba24e4a31a8c?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://remysharp.com/" rel="external nofollow" class="url">Remy Sharp</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17292">
+			August 23, 2011 at 3:28 pm</a>		</div>
+
+		<p>@zcorpan – shame, the browsers should have changed, but I guess we go with what we’ve got, right?</p>
+<p>Re: “racy” – can you elaborate a little, I don’t think I follow – but maybe because I can’t think of an example of what you mean perhaps.</p>
+<p>Cheers!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17292#respond" onclick="return addComment.moveForm( &quot;div-comment-17292&quot;, &quot;17292&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Remy Sharp">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17295">
+				<div id="div-comment-17295" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/6aa19478b3027b467f1a819ead33dbe5" srcset="http://0.gravatar.com/avatar/6aa19478b3027b467f1a819ead33dbe5?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="https://twitter.com/#!/KamilTrebunia" rel="external nofollow" class="url">Kamil Trebunia</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17295">
+			August 23, 2011 at 3:47 pm</a>		</div>
+
+		<p>I believe that by “racy” zcorpan meant “susceptible to race condition”.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17295#respond" onclick="return addComment.moveForm( &quot;div-comment-17295&quot;, &quot;17295&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Kamil Trebunia">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17296">
+				<div id="div-comment-17296" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/37881c0540fb86ebfa6c855e61021527" srcset="http://0.gravatar.com/avatar/37881c0540fb86ebfa6c855e61021527?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://xanthir.com/" rel="external nofollow" class="url">Tab Atkins Jr.</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17296">
+			August 23, 2011 at 3:56 pm</a>		</div>
+
+		<p>By “racy”, he’s referring to race conditions, where different things can occur based on the order that supposedly-independent things ran in.</p>
+<p>For example, say you were storing a counter in localStorage, and wanted to increment it.  You might do something simple like this:</p>
+<p>localStorage.foo = localStorage.foo+1;</p>
+<p>In between the time you retrieved the value and stored the modified value, another tab running in a different process might have stored a *different value* there, which you would overwrite.  That means lost increments on your counter!</p>
+<p>Of course, the time window in this example is miniscule, but more realistic examples are easy to imagine where you pull out a bit of data, do some expensive computation that takes a couple cycles, then store it back.  There’s a greater possibility for problems there.</p>
+<p>Of course, the exact same problem exists with cookies, which doesn’t seem to have bothered people much, so this probably isn’t a big deal in practice.  Every once in a while you might have data corruption, is all.</p>
+<p>Other techs like IndexedDB solve this problem by implementing proper transactions and write-locks and such, but they’re not nearly as simple as localStorage.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17296#respond" onclick="return addComment.moveForm( &quot;div-comment-17296&quot;, &quot;17296&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Tab Atkins Jr.">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17297">
+				<div id="div-comment-17297" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/5ad82c5ba0264363974af89deb743c20" srcset="http://2.gravatar.com/avatar/5ad82c5ba0264363974af89deb743c20?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://adactio.com/" rel="external nofollow" class="url">Jeremy Keith</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17297">
+			August 23, 2011 at 4:01 pm</a>		</div>
+
+		<p>It strikes me that this is the perfect solution to that “God damn it! I just lost everything I was typing into a textarea!” problem. It would be a nice enhancement for the browsers that support Web Storage (storing the contents of the textarea periodically) and for browsers that don’t …well, that’s the current situation for typing things into textareas on the web anyway.</p>
+<p>Someone’s probably made a WordPress extension already, right?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17297#respond" onclick="return addComment.moveForm( &quot;div-comment-17297&quot;, &quot;17297&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Jeremy Keith">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17299">
+				<div id="div-comment-17299" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/1a7a6dbfef8a9e2f3555bce44508b3c0" srcset="http://1.gravatar.com/avatar/1a7a6dbfef8a9e2f3555bce44508b3c0?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://titaniumappdeveloper.com/" rel="external nofollow" class="url">Conor Clafferty</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17299">
+			August 23, 2011 at 4:09 pm</a>		</div>
+
+		<p>// Resubmitted to show code blocks</p>
+<p>This race condition isn’t a problem, see sixrevisions article:<br>
+<a href="http://sixrevisions.com/html/introduction-web-storage/" rel="nofollow">http://sixrevisions.com/html/introduction-web-storage/</a><br>
+under the heading “Web Storage Events”</p>
+<p>By racy he means that it will cause a race condition. The concern is as browsers now implement multithreading, threads can cause problems when saving data. Here’s a good example</p>
+<pre><code><span class="kwd">var</span><span class="pln"> myarray </span><span class="pun">=</span><span class="pln"> </span><span class="pun">[</span><span class="pln">a</span><span class="pun">,</span><span class="pln">b</span><span class="pun">];</span><span class="pln"><br></span><span class="kwd">var</span><span class="pln"> first </span><span class="pun">=</span><span class="pln"> myarray</span><span class="pun">.</span><span class="pln">splice</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="lit">1</span><span class="pun">);</span><span class="pln"><br>localStorage</span><span class="pun">.</span><span class="pln">first </span><span class="pun">=</span><span class="pln"> first</span><span class="pun">;</span></code></pre>
+<p>You would expect the following:</p>
+<pre><code><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">first </span><span class="pun">==</span><span class="pln"> a</span><span class="pun">;</span><span class="pln"> </span><span class="com">//true</span></code></pre>
+<p>When a race condition occurs we could find that this happens</p>
+<pre><code><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">first </span><span class="pun">==</span><span class="pln"> b</span><span class="pun">;</span><span class="pln"> </span><span class="com">//true</span></code></pre>
+<p>As one thread splices myarray and is de-scheduled, another thread runs the same code segment and effectively reads myarray as only having 1 element, b, and as such assigns it to first.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17299#respond" onclick="return addComment.moveForm( &quot;div-comment-17299&quot;, &quot;17299&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Conor Clafferty">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-remys bypostauthor even thread-even depth-1" id="comment-17300">
+				<div id="div-comment-17300" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/c67399ae31afdbeb26e2ba24e4a31a8c(1)" srcset="http://0.gravatar.com/avatar/c67399ae31afdbeb26e2ba24e4a31a8c?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://remysharp.com/" rel="external nofollow" class="url">Remy Sharp</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17300">
+			August 23, 2011 at 4:24 pm</a>		</div>
+
+		<p>Sorry chaps – I should have clarified, I know zcorpan was referring to a race condition – I just couldn’t see where.</p>
+<p>Thank you @tabatkins and @Connor for giving us a few examples.</p>
+<p>I think the key is what Tab said:</p>
+<blockquote><p>Other techs like IndexedDB solve this problem by implementing proper transactions and write-locks and such, but they’re not nearly as simple as localStorage.</p></blockquote>
+<p>If race conditions are a problem (or you think they’re going to be a problem), you need a more advanced storage mechanism than web storage.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17300#respond" onclick="return addComment.moveForm( &quot;div-comment-17300&quot;, &quot;17300&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Remy Sharp">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17301">
+				<div id="div-comment-17301" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/37372c3acc31affca29886c1a9cbc13b" srcset="http://0.gravatar.com/avatar/37372c3acc31affca29886c1a9cbc13b?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://www.onderhond.com/" rel="external nofollow" class="url">Niels Matthijs</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17301">
+			August 23, 2011 at 4:50 pm</a>		</div>
+
+		<p>Any info on how all of this (possibly) degrades and whether people can choose to disallow a site from using local storage?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17301#respond" onclick="return addComment.moveForm( &quot;div-comment-17301&quot;, &quot;17301&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Niels Matthijs">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-remys bypostauthor even thread-even depth-1" id="comment-17302">
+				<div id="div-comment-17302" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/c67399ae31afdbeb26e2ba24e4a31a8c(1)" srcset="http://0.gravatar.com/avatar/c67399ae31afdbeb26e2ba24e4a31a8c?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://remysharp.com/" rel="external nofollow" class="url">Remy Sharp</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17302">
+			August 23, 2011 at 4:55 pm</a>		</div>
+
+		<p>@Neils – for degrading, get yourself a polyfill – web storage polyfills are pretty well established now and work just fine in old browsers like <em>Netscape 1 point who uses this</em> (link at the start of the article).</p>
+<p>As for disallowing – you can prevent cookies, but I’ve personally not found a way to prevent localStorage (I’m sure there is, but browsers bury it pretty deep nowadays).  That said, if you’re supporting Firefox 3.6, and the user has disabled cookies, web storage won’t work either – I can’t say the whether the functionality  is the same in FF6 or not.  If that’s the case, you need to detect for cookies and proceed from there.  That’s what I do in JS Bin: <a href="https://github.com/remy/jsbin/blob/master/js/chrome/storage.js" rel="nofollow">https://github.com/remy/jsbin/blob/master/js/chrome/storage.js</a> – note that sessionStorage, the variable in JS Bin’s code is <em>locally scoped</em> and not the native implementation until around line 23.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17302#respond" onclick="return addComment.moveForm( &quot;div-comment-17302&quot;, &quot;17302&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Remy Sharp">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17303">
+				<div id="div-comment-17303" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/6cfbd373bb1dd5f26c066c1fc7e68288" srcset="http://0.gravatar.com/avatar/6cfbd373bb1dd5f26c066c1fc7e68288?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://paulirish.com/" rel="external nofollow" class="url">Paul Irish</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17303">
+			August 23, 2011 at 5:32 pm</a>		</div>
+
+		<p>@Jeremy,  Disqus actually already saves your draft comments in localStorage, which I agree is super handy. I know Chrome will restore all form field data it can (i think only if those elements are in the original markup). </p>
+<p>But yeah localStorage works great for forms; some sites cache your email/username and populate the login form with it each time to save you a few keystrokes.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17303#respond" onclick="return addComment.moveForm( &quot;div-comment-17303&quot;, &quot;17303&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Paul Irish">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17304">
+				<div id="div-comment-17304" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/1fe89044eef1cf027c146e8d7969d8ee" srcset="http://1.gravatar.com/avatar/1fe89044eef1cf027c146e8d7969d8ee?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://rodneyrehm.de/" rel="external nofollow" class="url">Rodney Rehm</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17304">
+			August 23, 2011 at 5:44 pm</a>		</div>
+
+		<p>Hey @rem,</p>
+<p>nice article, didn’t know the storage event. It might even be used to allow communication between otherwise unlinked browser windows / tabs. So instead of using a SharedWorker (Chrome only, atm.) to broker events, you could work something out with these events. nice.</p>
+<p>Regarding your »…and I’ve yet to see a polyfill that supports the storage events.« have a look at <a href="http://medialize.github.com/jQuery-browserEvent/" rel="nofollow">http://medialize.github.com/jQuery-browserEvent/</a> (gloryfied proof of concept) – where I tried to enable cross window communication down to IE6. One might take this approach to enable the events. A bit chicken/eggy, though.</p>
+<p>Cheers,<br>
+Rod</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17304#respond" onclick="return addComment.moveForm( &quot;div-comment-17304&quot;, &quot;17304&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Rodney Rehm">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17306">
+				<div id="div-comment-17306" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/dacce60c70e3e5f5269458532d3bc865" srcset="http://1.gravatar.com/avatar/dacce60c70e3e5f5269458532d3bc865?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://twitter.com/CrabDude" rel="external nofollow" class="url">Adam Crabtree</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17306">
+			August 23, 2011 at 6:31 pm</a>		</div>
+
+		<p>I’d add that the localStorage setter (localStorage.item = ‘someValue’) is up to 2x faster than setItem:</p>
+<p><a href="http://jsperf.com/localstorage-getitem-setitem-vs-getter-setter" rel="nofollow">http://jsperf.com/localstorage-getitem-setitem-vs-getter-setter</a></p>
+<p>Also, a small gotcha some may face is:</p>
+<p>typeof localStorage.undefinedItem === “undefined”<br>
+localStorage.getItem(‘undefinedItem’) === null</p>
+<p>Additionally, since WebKit’s localStorage stores strings encoded as UTF-16, it only holds 2.5MB worth of UTF-8 encoded strings, compared to the 5MB of other non-WebKit browsers.</p>
+<p><a href="http://code.google.com/p/chromium/issues/detail?id=58985#hc15" rel="nofollow">http://code.google.com/p/chromium/issues/detail?id=58985#hc15</a><br>
+<a href="http://stackoverflow.com/questions/2747285/html5-localstorage-restrictions-and-limits" rel="nofollow">http://stackoverflow.com/questions/2747285/html5-localstorage-restrictions-and-limits</a><br>
+<a href="http://jsfiddle.net/brucealdridge/j6KdJ/" rel="nofollow">http://jsfiddle.net/brucealdridge/j6KdJ/</a></p>
+<p>Check for the “QUOTA_EXCEEDED_ERR” exception in this case:</p>
+<p><a href="http://dev.w3.org/html5/webstorage/#the-storage-interface" rel="nofollow">http://dev.w3.org/html5/webstorage/#the-storage-interface</a></p>
+<p>Additionally, as stated in the chromium issue above’s comments, localStorage performance degrades as size increases and is considered slower than IndexedDB, though with the benefit of a FAR SIMPLER API and broader browser support (IE8, FF3.5, S4, Chr4, O10.5).</p>
+<p><a href="https://developer.mozilla.org/en/dom/storage#Browser_Compatibility" rel="nofollow">https://developer.mozilla.org/en/dom/storage#Browser_Compatibility</a></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17306#respond" onclick="return addComment.moveForm( &quot;div-comment-17306&quot;, &quot;17306&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Adam Crabtree">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17308">
+				<div id="div-comment-17308" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/9767673d472c2f27307890c27061bca3" srcset="http://0.gravatar.com/avatar/9767673d472c2f27307890c27061bca3?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">zcorpan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17308">
+			August 23, 2011 at 10:09 pm</a>		</div>
+
+		<p>&gt; So instead of using a SharedWorker (Chrome only, atm.)</p>
+<p>Opera supports shared workers too. :-)</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17308#respond" onclick="return addComment.moveForm( &quot;div-comment-17308&quot;, &quot;17308&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to zcorpan">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17311">
+				<div id="div-comment-17311" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/1d7e5162e3960cb220bf87cefbaf3f8a" srcset="http://1.gravatar.com/avatar/1d7e5162e3960cb220bf87cefbaf3f8a?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="https://projectit.com/" rel="external nofollow" class="url">Patrick Thompson</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17311">
+			August 24, 2011 at 1:30 am</a>		</div>
+
+		<p>Is this really a simpler way to achieve what Kissmetrics was discovered doing using an indirect cookies mechanism, see <a href="http://online.wsj.com/article/SB20001424053111903480904576508382675931492.html" rel="nofollow">Latest in Web Tracking: Stealthy ‘Supercookies’</a>?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17311#respond" onclick="return addComment.moveForm( &quot;div-comment-17311&quot;, &quot;17311&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Patrick Thompson">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17319">
+				<div id="div-comment-17319" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/3b4af6fbcb37d41021119636bc1a2e12" srcset="http://0.gravatar.com/avatar/3b4af6fbcb37d41021119636bc1a2e12?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://www.sarfraznawaz.wordpress.com/" rel="external nofollow" class="url">Sarfraz Ahmed</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17319">
+			August 24, 2011 at 11:17 am</a>		</div>
+
+		<p>Hey Remy nice post.</p>
+<p>I think you can store object, numbers, xml notes in the localStorage and also be able to support IE6+ with great piece of javascript code, jStorage:</p>
+<p> <a href="http://www.jstorage.info/" rel="nofollow">http://www.jstorage.info</a></p>
+<p>I liked the idea of localStroage and came up with this useful too, HTML5Sticky:</p>
+<p><a href="http://sarfraznawaz2005.kodingen.com/html5sticky/" rel="nofollow">http://sarfraznawaz2005.kodingen.com/html5sticky/</a></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17319#respond" onclick="return addComment.moveForm( &quot;div-comment-17319&quot;, &quot;17319&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Sarfraz Ahmed">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17323">
+				<div id="div-comment-17323" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/e737655e74af388f97a983d4b57d5155" srcset="http://2.gravatar.com/avatar/e737655e74af388f97a983d4b57d5155?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://stevesouders.com/" rel="external nofollow" class="url">Steve Souders</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17323">
+			August 24, 2011 at 7:45 pm</a>		</div>
+
+		<p>Not knowing available size is a gotcha. For example, Jeremy Keith suggests using localStorage as a backup for textArea content. If storing all the content generates a QUOTA_EXCEEDED_ERR exception, then I’d prefer to store as much content as possible. But since there’s no API to determine what’s available I have to use trial and error with various sizes.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17323#respond" onclick="return addComment.moveForm( &quot;div-comment-17323&quot;, &quot;17323&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Steve Souders">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17329">
+				<div id="div-comment-17329" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/a2b625f331361a7110da59a907d79e95" srcset="http://1.gravatar.com/avatar/a2b625f331361a7110da59a907d79e95?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://everlong.org/" rel="external nofollow" class="url">JulienW</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17329">
+			August 25, 2011 at 9:12 am</a>		</div>
+
+		<p>During testing, I found some behaviour is not consistent accross browsers when using  sessionStorage and opening a link in a new tab.</p>
+<p>– Chrome and Firefox copy sessionStorage content in the new page, but don’t share it<br>
+– Safari doesn’t copy it at all<br>
+– Opera copies and shares (ie if you modify it in one page, it will reflect in the other).</p>
+<p>(note: this is the behaviour at the end of 2010, I didn’t test since then).</p>
+<p>As I understand the specification, the good behaviour is the one from Chrome and Firefox.</p>
+<p>Other gotchas :<br>
+– localStorage is shared using the “origin”, ie scheme + host + port. It means any page on the same origin will have access to the same localStorage<br>
+– on the other hand, if your website/application use different subdomains and/or scheme (think http and https), then you won’t have access to the same data.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17329#respond" onclick="return addComment.moveForm( &quot;div-comment-17329&quot;, &quot;17329&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to JulienW">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17388">
+				<div id="div-comment-17388" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/66d4a66764e5d24de66787af86cbe472" srcset="http://0.gravatar.com/avatar/66d4a66764e5d24de66787af86cbe472?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://www.bizzylabs.com/" rel="external nofollow" class="url">bizzyLabs</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17388">
+			August 28, 2011 at 7:36 pm</a>		</div>
+
+		<p>Very nice article and I haven’t implemented this yet so I may be wrong by asking the following question but how secure is Local Storage? If by chance I save lets say an unencrypted username in local storage by using something like.</p>
+<p><code><span class="pln">localStorage</span><span class="pun">.</span><span class="pln">username </span><span class="pun">=</span><span class="pln"> </span><span class="str">'bizzy'</span><span class="pun">;</span></code></p>
+<p>Lets say I run that code on my own website and then the visitor goes to another website and they use the same localStorage.username value to try and retrieve username, is the other website able to retrieve it?</p>
+<p>As you said you need to supply a URL so there is no cross-connection behaviour like this but maybe the other website owner is clever and uses the referrer URL and maybe that URL was the one that stored the data.</p>
+<p>Basically could I access a stored value on my website using a URL and value that was stored on another website?</p>
+<p>I know you could just as easily encrypt all your data before putting it in localStorage to avoid any possible malicious activity from another webmaster but I like to think about all these little possible security quirks from time to time.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17388#respond" onclick="return addComment.moveForm( &quot;div-comment-17388&quot;, &quot;17388&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to bizzyLabs">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17442">
+				<div id="div-comment-17442" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/cab6438ef18b0bef5e23684ba0bb84ba" srcset="http://0.gravatar.com/avatar/cab6438ef18b0bef5e23684ba0bb84ba?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">justgrumpy</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17442">
+			September 1, 2011 at 5:12 am</a>		</div>
+
+		<p>I have found that the following does not actually work with IE8:</p>
+<p>    window.attachEvent(‘onstorage’, storageEvent);</p>
+<p>It instead needs to be:</p>
+<p>    document.attachEvent(‘onstorage’, storageEvent);</p>
+<p>Also, the properties, key, storageArea, oldValue, and newValue are all undefined with IE8. Only the url property gets a value.</p>
+<p>So, the onstorage event can be fired with IE8, but the event does not contain any useful information about what has changed.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17442#respond" onclick="return addComment.moveForm( &quot;div-comment-17442&quot;, &quot;17442&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to justgrumpy">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-17476">
+				<div id="div-comment-17476" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/69f7b42c21dab90464c455ae85de9af7" srcset="http://0.gravatar.com/avatar/69f7b42c21dab90464c455ae85de9af7?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://xujianye.com/" rel="external nofollow" class="url">Prince Xu</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17476">
+			September 5, 2011 at 2:54 am</a>		</div>
+
+		<p>Great article~and impressive examples<br>
+I wonder if I can translate it into Chinese and share it with my friends?~</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17476#respond" onclick="return addComment.moveForm( &quot;div-comment-17476&quot;, &quot;17476&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Prince Xu">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-17928">
+				<div id="div-comment-17928" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/569c3b7696af8deb380bc82c03c3e782" srcset="http://2.gravatar.com/avatar/569c3b7696af8deb380bc82c03c3e782?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Taku Ito</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-17928">
+			October 6, 2011 at 5:15 am</a>		</div>
+
+		<p>Hi Remy.  I want to know one thing about accessing storage property.</p>
+<p>I’ve found out that when you checking property which is undefined key in storage,<br>
+you get different result between by-using “.getItem()” and by-accessing getter.<br>
+Also, some browser returns different results from other.</p>
+<p>—-<br>
+e.g.<br>
+(expecting value sessionStorage.undefined_session_property has never been set in previous activity.)</p>
+<p>source:<br>
+<code><br><span class="pln"><br>console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"SessionStorage.getItem('undefined_property'): "</span><span class="pun">,</span><span class="pln">sessionStorage</span><span class="pun">.</span><span class="pln">getItem</span><span class="pun">(</span><span class="str">'undefined_session_property'</span><span class="pun">));</span><br><span class="pln"><br>console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"SessionStorage.undefined_property: "</span><span class="pun">,</span><span class="pln">sessionStorage</span><span class="pun">.</span><span class="pln">undefined_session_property</span><span class="pun">);</span><br></code></p>
+<p>result for Google(14), Safari(5.1), Opera(11.51) &amp; IE8,9<br>
+<code><br><span class="pln"><br></span><span class="typ">SessionStorage</span><span class="pun">.</span><span class="pln">getItem</span><span class="pun">(</span><span class="str">'undefined_property'</span><span class="pun">):</span><span class="pln"> &nbsp;</span><span class="kwd">null</span><br><span class="pln"><br></span><span class="typ">SessionStorage</span><span class="pun">.</span><span class="pln">undefined_property</span><span class="pun">:</span><span class="pln"> &nbsp;undefined</span><br></code></p>
+<p>result for FireFox (7.0.1)<br>
+<code><br><span class="pln"><br></span><span class="typ">SessionStorage</span><span class="pun">.</span><span class="pln">getItem</span><span class="pun">(</span><span class="str">'undefined_property'</span><span class="pun">):</span><span class="pln"> </span><span class="kwd">null</span><br><span class="pln"><br></span><span class="typ">SessionStorage</span><span class="pun">.</span><span class="pln">undefined_property</span><span class="pun">:</span><span class="pln"> </span><span class="kwd">null</span><br></code></p>
+<p>—-<br>
+I got same result with LocalStorage too.</p>
+<p>Is this one of those unexpected-specification thing that developers have to deal with?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=17928#respond" onclick="return addComment.moveForm( &quot;div-comment-17928&quot;, &quot;17928&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Taku Ito">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-18064">
+				<div id="div-comment-18064" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/bf274c9312e64f4931dc69db868b6c39" srcset="http://2.gravatar.com/avatar/bf274c9312e64f4931dc69db868b6c39?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Rod L</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-18064">
+			October 14, 2011 at 8:53 pm</a>		</div>
+
+		<p>The above describes “local” Web Storage as persistent. Is local data  cleared by clearing the browser cache?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=18064#respond" onclick="return addComment.moveForm( &quot;div-comment-18064&quot;, &quot;18064&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Rod L">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-28855">
+				<div id="div-comment-28855" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/2165fd582956b76417a9802a805e1699" srcset="http://2.gravatar.com/avatar/2165fd582956b76417a9802a805e1699?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://www.travismichael.net/" rel="external nofollow" class="url">Travis</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-28855">
+			August 18, 2012 at 9:02 pm</a>		</div>
+
+		<p>Can’t figure out why this is not working? please could someone share some knowledge and help me out. Thanks.</p>
+<p>Trying to store info locally using php to dynamically create new storage variables per input. I can get it to work with the first div that was dynamically created using php but it will not work for the other divs that were created.</p>
+<p><code></code></p>
+<p>		&lt;div id="projectFolder" class=" hidden"&gt;</p>
+<p>function saveEdits_() {</p>
+<p>//get the editable element<br>
+var editElem_ = document.getElementById("edit_");</p>
+<p>//get the edited element content<br>
+var Version = editElem_.innerHTML;</p>
+<p>//save the content to local storage<br>
+localStorage.userEdits_ = Version;</p>
+<p>//write a confirmation to the user<br>
+document.getElementById("update_").innerHTML="Edits saved!";</p>
+<p>}<br>
+function checkEdits() {</p>
+<p>//find out if the user has previously saved edits<br>
+if(localStorage.userEdits_!=null)<br>
+	document.getElementById("edit_").innerHTML=localStorage.userEdits_;<br>
+}</p>
+<p>	    		&lt;!--	</p>
+<p>					 --&gt;<br>
+					&lt;div id="edit_" contenteditable="true" style="color:#222222;"&gt;<br>
+								Here is the element's original content</p>
+<p>							&lt;input type="button" value="save my edits" onclick="saveEdits_()"/&gt;</p>
+<p>							&lt;div id="update_" style="color:#000;"&gt; Edit the text and click to save for next time</p>
+<p> <!--  END OF DATABASE --></p>
+<p></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=28855#respond" onclick="return addComment.moveForm( &quot;div-comment-28855&quot;, &quot;28855&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Travis">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-29152">
+				<div id="div-comment-29152" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/3b0d7478bdf6cf3408d5986b13da7776" srcset="http://0.gravatar.com/avatar/3b0d7478bdf6cf3408d5986b13da7776?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Nitin</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-29152">
+			November 5, 2012 at 10:03 am</a>		</div>
+
+		<p>Hello Remy,<br>
+    I am a Newbie to web storage…could you please help me to figure out what kind of  data or item that we can store locally……….like if i have same pictures,videos and audios……..then how can i store them locally.  </p>
+<p>Thanks</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=29152#respond" onclick="return addComment.moveForm( &quot;div-comment-29152&quot;, &quot;29152&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Nitin">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-32942">
+				<div id="div-comment-32942" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/3a19258405436bc74f5019b2281688ed" srcset="http://0.gravatar.com/avatar/3a19258405436bc74f5019b2281688ed?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Mike Jabber</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-32942">
+			March 31, 2013 at 1:55 pm</a>		</div>
+
+		<p>There is a new javascript library called cupcake.js which supports both session and local storages. You can find it from <a href="http://www.rivindu.com/p/cupcakejs.html" rel="nofollow">http://www.rivindu.com/p/cupcakejs.html</a></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=32942#respond" onclick="return addComment.moveForm( &quot;div-comment-32942&quot;, &quot;32942&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Mike Jabber">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-34522">
+				<div id="div-comment-34522" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/93d128690e9c789cc9c2f871066b627a" srcset="http://0.gravatar.com/avatar/93d128690e9c789cc9c2f871066b627a?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Halcyon</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-34522">
+			May 15, 2013 at 6:52 pm</a>		</div>
+
+		<p>Good article, helped me get started on using web storage quickly!<br>
+Thanks.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=34522#respond" onclick="return addComment.moveForm( &quot;div-comment-34522&quot;, &quot;34522&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Halcyon">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-35813">
+				<div id="div-comment-35813" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/a5a89f3868c46e8385831e095796dc34" srcset="http://1.gravatar.com/avatar/a5a89f3868c46e8385831e095796dc34?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">william</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-35813">
+			July 2, 2013 at 4:49 am</a>		</div>
+
+		<p>hi, can i store some data to chache memory of google crome. e.g i want to save my name with my website into the chache memory of google crome using php code. Is it possiable. plz help.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=35813#respond" onclick="return addComment.moveForm( &quot;div-comment-35813&quot;, &quot;35813&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to william">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-37474">
+				<div id="div-comment-37474" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/c08ea98862c7bff1e1b57eaa0e488b08" srcset="http://0.gravatar.com/avatar/c08ea98862c7bff1e1b57eaa0e488b08?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">floyd</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-37474">
+			August 20, 2013 at 11:55 pm</a>		</div>
+
+		<p>“Note that as IE8 has support, if you don’t want to use onstorage you’ll want to double up your event listeners with attachEvent.”</p>
+<p>What in the world does “you’ll want to double up your event listeners with attachEvent.”  can you please show some code to do this.</p>
+<p>Thanks,</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=37474#respond" onclick="return addComment.moveForm( &quot;div-comment-37474&quot;, &quot;37474&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to floyd">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1444074">
+				<div id="div-comment-1444074" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/4c33f707e9171f713dee8ec40d336e5c" srcset="http://1.gravatar.com/avatar/4c33f707e9171f713dee8ec40d336e5c?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn"><a href="http://hoangnd.me/" rel="external nofollow" class="url">HoangND</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-1444074">
+			January 15, 2015 at 8:26 am</a>		</div>
+
+		<p>Hi, I wrote a simple caching lib. It support both localStorage and in memory: <a href="http://hoangnd.me/blog/cache-your-data-with-javascript-using-cachejs" rel="nofollow">Cache your data with Javascript using cacheJS</a></p>
+<p>Here are simple usages:</p>
+<p>cacheJS.set({ blogId: 1, type: ‘json’ })<br>
+cacheJS.removeByKey({ blogId: 1, type: ‘json’ })</p>
+<p>cacheJS.on(‘cacheAdded’, function(){ // do something });</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=1444074#respond" onclick="return addComment.moveForm( &quot;div-comment-1444074&quot;, &quot;1444074&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to HoangND">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-1589226">
+				<div id="div-comment-1589226" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/73a4f0fc8e456c6b85e6b9c415e83b79" srcset="http://1.gravatar.com/avatar/73a4f0fc8e456c6b85e6b9c415e83b79?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Gio</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-1589226">
+			February 18, 2015 at 6:02 am</a>		</div>
+
+		<p>I’m new to JS and I’m trying hard to wrap my head around JSON and localStorage. I have an form that allows for 21 distinct text inputs. I’m trying to pass the 21 inputs to a second web page that will process and manipulate the data. Thanks to this article, I’m starting to understand that localStorage is a single container like a bucket to store data. I mistakenly thought that I could create 21 different localStorage containers for my form data. It seems to not work that way at all.</p>
+<p>At least now, I get that I have to store all 21 entries into one bucket in the first html page and then pull them out from that bucket in the second html page.</p>
+<p>Thanks!</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=1589226#respond" onclick="return addComment.moveForm( &quot;div-comment-1589226&quot;, &quot;1589226&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Gio">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1" id="comment-1811872">
+				<div id="div-comment-1811872" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/7b463debb2a64f73edcf4e543d68732f" srcset="http://1.gravatar.com/avatar/7b463debb2a64f73edcf4e543d68732f?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">Neel</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-1811872">
+			March 29, 2015 at 6:12 pm</a>		</div>
+
+		<p>Hi. Thanks for this awesome post. But can you help me about how can I retrieve that data from the sessionStorage (like using $(document).sessionStorage() ) ……… in another jsp/html file????</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=1811872#respond" onclick="return addComment.moveForm( &quot;div-comment-1811872&quot;, &quot;1811872&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to Neel">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-1982516">
+				<div id="div-comment-1982516" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/7444d837c10fa249ef59264ae9fa6aa7" srcset="http://1.gravatar.com/avatar/7444d837c10fa249ef59264ae9fa6aa7?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo" height="48" width="48">			<cite class="fn">pankaj</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#comment-1982516">
+			June 18, 2015 at 4:47 pm</a>		</div>
+
+		<p>I am working on one opensource project by which we can easily deal with local storage. Right know i am working on this project if any one want work on this project he/she can get code from my git repo. </p>
+<p><a href="https://github.com/pankajbisht/openDB" rel="nofollow">https://github.com/pankajbisht/openDB</a></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/?replytocom=1982516#respond" onclick="return addComment.moveForm( &quot;div-comment-1982516&quot;, &quot;1982516&quot;, &quot;respond&quot;, &quot;3600&quot; )" aria-label="Reply to pankaj">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+
+ 
+
+
+<div id="form">
+
+<h3>Join the discussion.</h3>
+
+<div class="cancel-comment-reply">
+	<small><a rel="nofollow" id="cancel-comment-reply-link" href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#respond" style="display:none;">Click here to cancel reply.</a></small>
+</div>
+
+
+<form action="http://html5doctor.com/wp-comments-post.php" method="post" id="commentform">
+
+
+<p>
+<label for="author">Name (required)</label><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required="true" required="">
+</p>
+
+<p>
+<label for="email">Mail (will not be published) (required)</label><input type="email" name="email" id="email" value="" size="22" tabindex="2" aria-required="true" required="">
+</p>
+
+<p>
+<label for="url">Website</label><input type="url" name="url" id="url" value="" size="22" tabindex="3">
+</p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+<div id="form-code">
+    <h4>Some HTML is ok</h4>
+    <p>You can use these tags:<br><code><span class="tag">&lt;a href="" title=""&gt;</span></code><br> <code><span class="tag">&lt;abbr title=""&gt;</span></code><br> <code><span class="tag">&lt;b&gt;</span></code><br> <code><span class="tag">&lt;blockquote cite=""&gt;</span></code><br> <code><span class="tag">&lt;cite&gt;</span></code><br> <code><span class="tag">&lt;del datetime=""&gt;</span></code><br> <code><span class="tag">&lt;em&gt;</span></code><br> <code><span class="tag">&lt;i&gt;</span></code><br> <code><span class="tag">&lt;q cite=""&gt;</span></code><br> <code><span class="tag">&lt;strong&gt;</span></code></p><p>You can also use <code><span class="tag">&lt;code&gt;</span></code>, and <strong>remember to use <code><span class="pun"><span class="pun">&amp;</span></span><span class="pln"><span class="pln">lt</span></span><span class="pun"><span class="pun">;</span></span></code> and <code><span class="pun"><span class="pun">&amp;</span></span><span class="pln"><span class="pln">gt</span></span><span class="pun"><span class="pun">;</span></span></code> for brackets</strong>.</p>
+</div>
+<p><label class="screenreader" for="comment">Enter comment</label>
+<textarea aria-required="true" required="" name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment">
+<input type="hidden" name="comment_post_ID" value="3600" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="064fcd7654"></p>
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;">
+	<label for="subscribe">Notify me of followup comments via e-mail</label>
+	</p>
+
+
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="30"></p>
+</form>
+
+</div>
+
+            </section>
+                <!-- end #comments -->
+                
+        </article>
+        <!-- end .post -->
+    </div>
+    <!-- end .main -->	
+                    
+ 	     <aside class="secondary">
+            
+        <section class="mod ads">
+            <h3>Element Index</h3>
+            <a href="http://html5doctor.com/element-index/"><img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/element-index.png" width="260" height="158" alt="View the HTML5 Element Index"></a>
+        </section>
+        <!-- end nav -->
+            
+		            <aside class="mod ads group">
+                <h3>Sponsors</h3>
+                <div id="bsap_1242929" class="bsap bsap_1242929" data-serve="CV7DL5T">
+<style type="text/css">
+div.bsap_1242929{width:100%;display:block;}div.bsap_1242929 a{width:125px;}div.bsap_1242929 a img{padding:0;}div.bsap_1242929 a em{font-style:normal;}div.bsap_1242929 a{margin-right: 10px !important; margin-bottom: 10px; width:125px !important; display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;text-align:center;text-decoration:none;overflow:hidden;float:left;}
+div.bsap_1242929 img{border:0;clear:right;}
+div.bsap_1242929 a.adhere{color:#666;font-weight:bold;font-size:12px;border:1px solid #ccc;background:#e7e7e7;text-align:center;}
+div.bsap_1242929 a.adhere:hover{border:1px solid #999;background:#ddd;color:#333;}
+div.bsap_1242929 iframe{margin-right: 10px !important; margin-bottom: 10px; width:125px !important; display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;text-align:center;text-decoration:none;overflow:hidden;float:left;}div.bsap_1242929 a{line-height:100%;}div.bsap_1242929 a.adhere{width:125px;height:125px;line-height:1000%;}html>body div.bsap_1242929 a.adhere{width:123px;height:123px;}div.bsap_1242929 img.s{height:0;width:0;}
+</style>
+<a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAIKZ3JCESDV23UF6SD5KQKC6BDK23MCEYI6K3EHJNCLSIZ" class="ad0 odd " title="Experience the power of Flexbox with this interactive guide full of real-life design examples." id="bsa_6111558" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/308177-1452892659.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAI6Z3JCESDV2QIFTYD65QKC6BDK23MCEYI6K3EHJNCLSIZ" class="ad1  even" title="GoJS radial social graph sample" id="bsa_3876727" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/184538-1377108033.png" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAI5Z3JCESDV2QUCVYITK3KC6BDK23MCEYI6K3EHJNCLSIZ" class="ad2 odd " title="jQuery Controls" id="bsa_5635777" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/266414-1429214000.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAICZ3JCESDV2QNCAADCKQKC6BDK23MCEYI6K3EHJNCLSIZ" class="ad3  even" title="Grow Your Email List!" id="bsa_5527992" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/263230-1427137069.jpg" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAI4Z3JCESDV2QIFTYD623KC6BDK23MCEYI6K3EHJNCLSIZ" class="ad4 odd " title="Fighting with ugly CMS generated markup? Perch stays out of your code." id="bsa_4048352" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/194875-1383141296.png" width="125" height="125" alt=""></a><iframe width="125" height="125" id="ad_6618819_frame" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/raw_be93ba843697c84e6d93910c199737a4.html" frameborder="0" class="bsap_adframe" scrolling="no"></iframe>
+
+<script type="text/javascript" id="auto_1" class="ignoreme"> if (typeof(_bsap_serving_callback) !== 'undefined') _bsap_serving_callback(51065, 'CV7DL5T', ''); </script><!-- no ad --><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDPK7WCKAIPZ3JCESDV23YC6SIV2QKC6BDK23MCEYI6K3EHJNCLSIZ" class="ad7 odd " title="The Ultimate WordPress Theme" id="bsa_6139191" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/289250-1442087157.png" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDP2QMCVBDLZ3JCESDV2QUC6ADCK3KC6BDK23MCEYI6K3EHJNCLSIZ" class="ad8  even" title="Create Cross-Platform Apps Using JavaScript" id="bsa_5625117" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/266148-1429041340.gif" width="125" height="125" alt=""></a><a href="http://srv.buysellads.com/ads/click/x/GTND423NCEBIVK7WCYS4YKQWCYBDP5QJCA7IEZ3JCESDV23YCAAI627KC6BDK23MCEYI6K3EHJNCLSIZ" class="ad9 odd " title="HTML5 Templates for all possible niches" id="bsa_6608546" target="_blank" rel="nofollow">
+<img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/6591022-1457950336.jpg" width="125" height="125" alt=""></a>
+
+<a href="http://www.buysellads.com/buy/detail/16194/zone/1242929?utm_source=site_16194&utm_medium=website&utm_campaign=imagetext&utm_content=zone_1242929" class="adhere">Advertise Here</a>
+
+
+<script type="text/javascript" id="auto_2" class="ignoreme"> if (typeof(BSACallback) !== 'undefined') BSACallback(); </script></div>
+            </aside>        
+		                       <!-- end nav -->
+        
+        <nav class="ui-tabs mod">
+          <h3>More HTML5 Doctor</h3>
+          <ul class="ui-tabs-nav group">
+            <li class="ui-tabs-selected"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#articles" class="selected">Articles</a></li>
+            <li class="ui-tab"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#categories">Categories</a></li>
+            <li class="ui-tab"><a href="http://html5doctor.com/storing-data-the-simple-html5-way-and-a-few-tricks-you-might-not-have-known/#authors">Authors</a></li>
+          </ul>
+          
+          <div class="tab" id="articles" style="display: block;">
+              <ul>
+			<li><a href="http://html5doctor.com/the-woes-of-date-input/">The woes of date input</a></li>
+	<li><a href="http://html5doctor.com/html-developers-please-consider/">HTML Developers: Please Consider</a></li>
+	<li><a href="http://html5doctor.com/on-html-belts-and-aria-braces/">On HTML belts and ARIA braces (The Default Implicit ARIA semantics they didn’t want you to know about)</a></li>
+	<li><a href="http://html5doctor.com/html5-check-it-before-you-wreck-it-with-miketm-smith/">HTML5 – Check it Before you Wreck it with Mike[tm] Smith</a></li>
+	<li><a href="http://html5doctor.com/the-ride-to-5/">The ride to 5</a></li>
+              </ul>
+              <p class="btn"><a href="http://html5doctor.com/article-archive/">View article archive</a></p>
+          </div>
+
+
+          <div class="tab" id="categories" style="display: none;">
+                <ul>
+                    	<li class="cat-item cat-item-6"><a href="http://html5doctor.com/category/accessibility/">Accessibility</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://html5doctor.com/category/attributes/">Attributes</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://html5doctor.com/category/boilerplates/">Boilerplates</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://html5doctor.com/category/browser-compatibility/">Browser Compatibility</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="http://html5doctor.com/category/comment/">Comment</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://html5doctor.com/category/css/">CSS</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://html5doctor.com/category/elements/">Elements</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="http://html5doctor.com/category/events/">Events</a>
+</li>
+	<li class="cat-item cat-item-108"><a href="http://html5doctor.com/category/forms/">forms</a>
+</li>
+	<li class="cat-item cat-item-380"><a href="http://html5doctor.com/category/interviews/">interviews</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://html5doctor.com/category/javascript-apis/">JavaScript APIs</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="http://html5doctor.com/category/marketing/">Marketing</a>
+</li>
+	<li class="cat-item cat-item-132"><a href="http://html5doctor.com/category/misc/">Misc</a>
+</li>
+	<li class="cat-item cat-item-128"><a href="http://html5doctor.com/category/multimedia/">multimedia</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://html5doctor.com/category/questions/">Questions</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://html5doctor.com/category/quick-tips/">Quick Tips</a>
+</li>
+	<li class="cat-item cat-item-135"><a href="http://html5doctor.com/category/reviews/">Reviews</a>
+</li>
+	<li class="cat-item cat-item-145"><a href="http://html5doctor.com/category/simplequiz/">Simplequiz</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://html5doctor.com/category/specification-changes/">Specification Changes</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://html5doctor.com/category/structure/">Structure</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://html5doctor.com/category/validation/">Validation</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://html5doctor.com/category/wai-aria/">WAI-ARIA</a>
+</li>
+ 
+                </ul>
+          </div>
+          <div class="tab" id="authors" style="display: none;">
+                <ul>
+                    <li><a href="http://html5doctor.com/author/alexg/" title="Posts by Alex Gibson">Alex Gibson</a></li><li><a href="http://html5doctor.com/author/brucel/" title="Posts by Bruce Lawson">Bruce Lawson</a></li><li><a href="http://html5doctor.com/author/cennyddb/" title="Posts by Cennydd Bowles">Cennydd Bowles</a></li><li><a href="http://html5doctor.com/author/chrisb/" title="Posts by Chris Bewick">Chris Bewick</a></li><li><a href="http://html5doctor.com/author/derekj/" title="Posts by Derek Johnson">Derek Johnson</a></li><li><a href="http://html5doctor.com/author/iand/" title="Posts by Ian Devlin">Ian Devlin</a></li><li><a href="http://html5doctor.com/author/jacko/" title="Posts by Jack Osborne">Jack Osborne</a></li><li><a href="http://html5doctor.com/author/markb/" title="Posts by Mark Boas">Mark Boas</a></li><li><a href="http://html5doctor.com/author/miker/" title="Posts by Mike Robinson">Mike Robinson</a></li><li><a href="http://html5doctor.com/author/olib/" title="Posts by Oli Studholme">Oli Studholme</a></li><li><a href="http://html5doctor.com/author/peterg/" title="Posts by Peter Gasston">Peter Gasston</a></li><li><a href="http://html5doctor.com/author/remys/" title="Posts by Remy Sharp">Remy Sharp</a></li><li><a href="http://html5doctor.com/author/richc/" title="Posts by Richard Clark">Richard Clark</a></li><li><a href="http://html5doctor.com/author/stevef/" title="Posts by Steve Faulkner">Steve Faulkner</a></li><li><a href="http://html5doctor.com/author/taba/" title="Posts by Tab Atkins Jnr">Tab Atkins Jnr</a></li><li><a href="http://html5doctor.com/author/toml/" title="Posts by Tom Leadbetter">Tom Leadbetter</a></li>            	            	
+                </ul>
+          </div>
+        </nav>
+        <!-- end .mod -->
+        
+        <section class="ads mod">
+          <h3>Submit your site to the Gallery</h3>
+          <a href="http://html5gallery.com/"><img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/the-gallery.png" alt="HTML5 Gallery" style="width:93%;"></a>
+        </section>
+        <!-- end .mod --> 
+                 
+	<div class="mod">
+         	<h3><a href="http://thewebevolved.com/">Beginning HTML5 &amp; CSS3</a></h3> 
+		<a href="http://thewebevolved.com/">
+			<img class="book" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/web-evolved.jpg" alt="Cover image of Beginning HTML5 and CSS3: The Web Evolved.">
+		</a>
+		<p>The Web Evolved: A new book on HTML5 &amp; CSS3 by Richard Clark, Oli Studholme, Christopher Murphy and Divya Manian.</p>
+		<p><a class="btn" href="http://thewebevolved.com/">Buy it now</a></p>
+	</div>      
+		
+    </aside>
+    <!-- end .secondary -->                   
+        <aside id="sub-footer" class="sub-footer group">
+        <div>
+            <div class="mod">
+                                <div id="crp_related" class="crp_related"><h3>Related Posts:</h3><ul class="related"><li><a href="http://html5doctor.com/the-classlist-api/" class="crp_title">The classList API</a></li><li><a href="http://html5doctor.com/the-woes-of-date-input/" class="crp_title">The woes of date input</a></li><li><a href="http://html5doctor.com/web-manifest-specification/" class="crp_title">The W3C App Manifest specification</a></li><li><a href="http://html5doctor.com/on-html-belts-and-aria-braces/" class="crp_title">On HTML belts and ARIA braces (The Default Implicit ARIA…</a></li><li><a href="http://html5doctor.com/the-ride-to-5/" class="crp_title">The ride to 5</a></li></ul><div class="crp_clear"></div></div>                        
+            </div><!-- end .mod -->
+            <div class="mod">
+                <h3>Recent Posts</h3>
+                <ul class="related">
+                                                        <li><a href="http://html5doctor.com/the-woes-of-date-input/">The woes of date input</a></li>
+                                        <li><a href="http://html5doctor.com/html-developers-please-consider/">HTML Developers: Please Consider</a></li>
+                                        <li><a href="http://html5doctor.com/on-html-belts-and-aria-braces/">On HTML belts and ARIA braces (The Default Implicit ARIA semantics they didn’t want you to know about)</a></li>
+                                        <li><a href="http://html5doctor.com/html5-check-it-before-you-wreck-it-with-miketm-smith/">HTML5 – Check it Before you Wreck it with Mike[tm] Smith</a></li>
+                                        <li><a href="http://html5doctor.com/the-ride-to-5/">The ride to 5</a></li>
+                                                </ul>
+            </div><!-- end .mod -->
+        </div> 
+        <!-- end div -->
+        <div class="ads">
+            <div class="mod">
+                <h3>Recommended</h3>
+                <a href="http://introducinghtml5.com/"><img src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/introducing-html5-ad.jpg" alt="Introducing HTML5 Book by Bruce Lawson and Remy Sharp"></a>
+                <p class="btn"><a href="http://introducinghtml5.com/">Buy this book</a></p>
+            </div>
+        </div>
+        <!-- end .ads -->
+    </aside>
+    <!-- end #sub-footer -->
+	
+
+    
+</main>
+<!-- end #content -->
+
+<footer role="contentinfo">
+	<div class="inner">
+    	<img width="64" height="64" class="w3c-logo" alt="W3C HTML5 logo (not CSS3!)" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/HTML5_Badge_64.png">
+		<p id="copyright">This site is licensed under a <a href="http://creativecommons.org/licenses/by-nc/2.0/uk/" rel="license">Creative Commons Attribution-Non-Commercial 2.0</a> share alike license. Feel free to change, reuse modify and extend it. Some authors will retain their copyright on certain articles.</p>
+        <p>Copyright © 2016 HTML5 Doctor. All rights reserved. Hosted by <a href="http://www.mediatemple.net/go/order/?refdom=richclarkdesign.com">(mt) Media Temple</a>. Branding by <a href="http://olik.co.uk/">Oliver Ker</a>.</p>
+	</div>
+    <!-- end .inner -->
+</footer>
+<!-- end footer -->
+
+    <!-- BuySellAds.com Ad Code -->
+    <script>
+    (function(){
+      var bsa = document.createElement('script');
+         bsa.type = 'text/javascript';
+         bsa.async = true;
+         bsa.src = '//s3.buysellads.com/ac/bsa.js';
+      (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+    })();
+    </script>
+    <!-- END BuySellAds.com Ad Code -->
+<script src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/jquery.min.js"></script>
+	<!-- TODO: move scripts in head to before /body —oli -->
+	   
+	<script src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/searchhi.js"></script>    
+	<script src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/prettify.js"></script>    
+	<script src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/master.js"></script>    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8916679-1']);
+  _gaq.push(['_setDomainName', 'html5doctor.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script async="" type="text/javascript" src="./Storing Data the Simple HTML5 Way _ HTML5 Doctor_files/fancybar.js" id="_fancybar_js"></script>
+
+
+<!-- Dynamic page generated in 0.925 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2016-05-29 16:07:16 -->
+
+<!-- super cache --><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;"></iframe></body></html>
