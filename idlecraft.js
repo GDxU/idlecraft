@@ -390,7 +390,8 @@ function break_JSON_for_import() {
 
 function savegame_export() {
 	create_JSON_for_export();
-	document.getElementById("txt_savegame").innerHTML=localStorage.Idlecraft_save;
+		//document.getElementById("txt_savegame").innerHTML=localStorage.Idlecraft_save;//orig line
+	document.getElementById("txt_savegame").value=localStorage.Idlecraft_save; //fixed a savegame bug...
 }
 function loadgame_import() {
 	localStorage.Idlecraft_save=document.getElementById("txt_savegame").value;
