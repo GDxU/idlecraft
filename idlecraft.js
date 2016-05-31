@@ -38,7 +38,7 @@ function Idlecraft() {
 	itemactivated 		= [];
 	managerhired 		= [];
 	balance 			= 0.00;
-	this.durationbarlength  = 200;
+	this.durationbarlength  = 100; //160531 changed to 100 to fix a display bug when unlocking the last 2 items
 	
 
 	//++++++++++++++++++++++++Check for save jon and fill save area
